@@ -6,11 +6,11 @@
 /*   By: bkara <bkara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/16 19:40:35 by bkara             #+#    #+#             */
-/*   Updated: 2025/07/16 20:02:36 by bkara            ###   ########.fr       */
+/*   Updated: 2025/07/17 14:01:58 by bkara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
 int	ft_putptr(unsigned long ptr)
 {

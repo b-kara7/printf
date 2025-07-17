@@ -6,11 +6,11 @@
 /*   By: bkara <bkara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 17:53:44 by betul             #+#    #+#             */
-/*   Updated: 2025/07/16 20:02:34 by bkara            ###   ########.fr       */
+/*   Updated: 2025/07/17 13:33:44 by bkara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
 int	ft_putnbr(int n)
 {

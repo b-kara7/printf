@@ -6,11 +6,11 @@
 /*   By: bkara <bkara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 19:07:14 by betul             #+#    #+#             */
-/*   Updated: 2025/07/16 20:02:26 by bkara            ###   ########.fr       */
+/*   Updated: 2025/07/17 13:33:13 by bkara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
 int	ft_hex(unsigned int n, char format)
 {
