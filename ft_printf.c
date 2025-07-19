@@ -6,7 +6,7 @@
 /*   By: bkara <bkara@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 17:04:09 by betul             #+#    #+#             */
-/*   Updated: 2025/07/17 13:35:27 by bkara            ###   ########.fr       */
+/*   Updated: 2025/07/19 15:01:51 by bkara            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,10 +42,13 @@ int	ft_printf(const char *format, ...)
 	count = 0;
 	while (format[i])
 	{
-		if (format[i] == '%' && format[i + 1])
+		if (format[i] == '%')
 		{
-			i++;
-			count += ft_format(format[i], args);
+			if (format[i + 1] != '\0')
+			{
+				i++;
+				count += ft_format(format[i], args);
+			}
 		}
 		else
 			count += write(1, &format[i], 1);
